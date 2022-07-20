@@ -207,7 +207,7 @@ For Mobile device
 -----------*/
 @media only screen and(max-width:500px){
   .top-banner {
-    background-color: #eeee;
+    background-color: red;
     width: 450px;
    
   }
