@@ -135,15 +135,13 @@ display: flex;
 }
 .blog{
 width: 350px;
-
-
 padding: 10px;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 border-radius: 3px;
 }
 .blog-banner img{
-  width: 250px;
-  height: 150px;
+  width: 350px;
+  height: 250px;
 }
 .blog-btn{
   padding: 10px;
@@ -233,7 +231,7 @@ Media Queries For Mobile device
 Media Queries For Tablet device
 --------------------------------*/
 
-@media only screen and(min-width:501px) and(max-width:992px){
+@media only screen and(min-width:501px) and(max-width:1366px){
   body{
     background-color: yellow;
   }
