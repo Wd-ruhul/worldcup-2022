@@ -208,7 +208,7 @@ For Mobile device
 @media only screen and(max-width:500px){
   .top-banner {
     background-color: red;
-    width: 450px;
+    width: 100%;
    
   }
   .blog-container {
