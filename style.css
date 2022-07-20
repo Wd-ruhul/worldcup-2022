@@ -202,9 +202,10 @@ footer{
   font-size: 10px;
 }
 
-/*----------
-For Mobile device
------------*/
+/*------------------------------
+Media Queries For Mobile device
+--------------------------------*/
+
 @media only screen and(max-width:500px){
   .top-banner {
     background-color: red;
@@ -224,7 +225,9 @@ For Mobile device
     grid-template-columns: repeat(1,1fr);
     grid-column-gap: 10px;
     
-  
   }
-  
+  .footer-link{
+    display: flex;
+    flex-direction: column;
+  }
 }
