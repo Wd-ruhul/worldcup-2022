@@ -86,23 +86,34 @@ display: flex;
 }
 .side-menu{
  display: flex;
- justify-content: center;
+ align-items: center;
 }
 .side-bar {
   width: 250px;
  background-color: #212121;
  height: 200px;
- margin:30px 7px;
+ padding: 20px;
+
+
  
 }
 .side-bar ul{
   list-style: none;
+ 
 }
 .side-bar ul li{
  background-color: #fff;
  border: 1px solid #eee;
- margin-bottom: 5px;
+ margin-bottom: 20px;
  border-radius: 5px;
+ 
+}
+.side-bar ul li:hover{
+ background-color: red;
+ border: 1px solid #eee;
+ margin-bottom: 20px;
+ border-radius: 5px;
+ 
  
 }
 
@@ -110,10 +121,19 @@ display: flex;
   display: block;
   text-decoration: none;
   color: #000;
+  text-align: center;
+  
  
   
 }
-
+.side-bar ul li a:hover {
+  display: block;
+  text-decoration: none;
+  color:#fff;
+  text-align: center;
+ 
+  
+}
 /*Blogs Style*/
 .blogs{
   display: grid;
