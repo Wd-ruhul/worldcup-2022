@@ -210,14 +210,9 @@ For Mobile device
 -----------*/
 @media only screen and(max-width:500px){
   .top-banner {
-    background-image: url(images/Banner-Image.png);
-    background-repeat: no-repeat;
-    background-position: right;
     background-color: #eeee;
     width: 450px;
-    padding: 20px 30px;
-    border-radius: 5px;
-    margin: 20px auto;
+   
   
   
   }
