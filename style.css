@@ -154,6 +154,9 @@ border-radius: 3px;
   width: 250px;
   height: 150px;
 }
+.blog-btn{
+  padding: 10px;
+}
 .blog-info{
   display: flex;
   justify-content: space-between;
@@ -202,3 +205,20 @@ footer{
   font-size: 10px;
 }
 
+/*----------
+For Mobile device
+-----------*/
+@media only screen and(max-width:500px){
+  .top-banner {
+    background-image: url(images/Banner-Image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #eeee;
+    width: 450px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin: 20px auto;
+  
+  
+  }
+}
