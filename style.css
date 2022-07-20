@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
     
     background-color: #fff;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -94,3 +97,28 @@ border-radius: 3px;
   justify-content: space-between;
   
 }
+
+/*---------
+Footer Style
+-----------*/
+footer{
+  background-color: #212121;
+  padding: 40px;
+}
+.footer-heading{
+  text-align: center;
+  color:#fff;
+}
+.footer-link{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-top:30px;
+}
+
+.footer-link a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+}
+
