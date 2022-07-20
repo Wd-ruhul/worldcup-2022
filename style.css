@@ -79,11 +79,8 @@ main{
 width:700px;
 
 display: flex;
-
-
- 
-  
 }
+
 .side-menu{
  display: flex;
  align-items: center;
@@ -213,7 +210,10 @@ For Mobile device
     background-color: #eeee;
     width: 450px;
    
-  
-  
   }
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
