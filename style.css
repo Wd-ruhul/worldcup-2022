@@ -37,7 +37,7 @@ header{
 }
 
 .top-banner-btn{
-   background-color:#D50000;
+   background-image: linear-gradient(to right, red , red,orange);
    width: 150px;
    text-decoration: none;
    border-radius: 3px;
@@ -48,7 +48,19 @@ header{
    font-weight: 500;
 }
 
+.top-banner-btn:hover {
+  background-image: linear-gradient(to right, red, red, orange);
+  width: 170px;
+  text-decoration: none;
+  border-radius: 3px;
+  text-align: center;
+  display: block;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 500;
+  translate:  linear 5s ;
 }
+
 
 main{
  display: grid;
@@ -57,14 +69,10 @@ main{
 .container{
    margin-top: 50px;
    
-  
-  
-  
+
 }
 
-.btn{
-  
-}
+
 .btn a{
  text-decoration: none;
  color: #fff;
@@ -102,7 +110,7 @@ display: flex;
 .side-bar .side-bar-list-item :hover{
  background-color: red;
  border: 1px solid #eee;
- margin-bottom: 20px;
+ 
  border-radius: 5px;
  
  
@@ -152,6 +160,39 @@ border-radius: 3px;
   
 }
 
+/*------------------------
+Upcomming Match Page Design
+--------------------------*/
+.match-schedule-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 30px 15px;
+
+}
+
+.schedule-box {
+  width: 350px;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 3px;
+}
+.schedule-banner-box img {
+  width: 160px;
+  height:160px;
+}
+.schedule-banner-box{
+  display: flex;
+  align-items: center;
+}
+.schedule-title{
+  text-align: center;
+  font-weight: 500;
+}
+.schedule-time{
+  text-align: center;
+  font-size: 12px;
+}
 /*--- view all button only for Tablet ---*/
 .view-all-btn{
   background-color:#D50000; 
